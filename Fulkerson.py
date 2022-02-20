@@ -93,14 +93,7 @@ class Graph(object):
 t = Graph()
 
 
-# t.add_edges('s', 'o', 3)
-# t.add_edges('s', 'p', 3)
-# t.add_edges('o', 'p', 2)
-# t.add_edges('o', 'q', 3)
-# t.add_edges('p', 'r', 2)
-# t.add_edges('q', 'r', 4)
-# t.add_edges('r', 't', 3)
-# t.add_edges('q', 't', 2)
+
 
 
 t.add_edges('s', 'a', 3)
@@ -108,17 +101,6 @@ t.add_edges('s', 'b', 2)
 t.add_edges('a', 'b', 5)
 t.add_edges('a', 't', 2)
 t.add_edges('b', 't', 3)
-
-# t.add_edges('s', 'a', 10)
-# t.add_edges('s', 'b', 10)
-# t.add_edges('a', 'b', 2)
-# t.add_edges('a', 'c', 4)
-# t.add_edges('a', 'd', 8)
-# t.add_edges('b', 'd', 9)
-# t.add_edges('d', 'c', 6)
-# t.add_edges('c', 't', 10)
-# t.add_edges('d', 't', 10)
-# print (t.ford_fulkerson('s', 't'))
 
 # print(t.display_graph())
 import unittest
